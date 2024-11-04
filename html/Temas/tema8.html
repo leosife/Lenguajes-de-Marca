@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon1.ico">
+    <style>
+        p{
+            background-image: url(imagenes/descarga.webp);
+        }
+    </style>
+</head>
+<body style="background-image: url(imagenes/background.png)">
+    <img src="imagenes/workplace.jpg" alt="Workplace" usemap="#workmap">
+    
+    <map name="workmap">
+        <area target="_blank" alt="Ordenador" title="Ordenador" href="https://www.google.com/?hl=es" coords="35,42,273,347" shape="rect">
+        <area target="_blank" alt="cafe" title="cafe" href="https://www.ceu.es/" coords="340,300,46" shape="circle">
+    </map>
+
+    <p style="background-image: url(imagenes/blanco.avif);">
+    Este es el parrafo sobre el que hemos añanido
+    <br>
+    <br>
+    Para ver su impacto en el párrafo
+    
+    </p>
+    <br>
+    <p style="color: white;">
+        Este es um párrafo que no tiene color de fondo de forma
+        <br>
+        induvidual sino a nivel de elemento html en el Head
+    </p>
+    <br><br>
+    <p style="color: white;">
+        Como podemos obersevar al poner el atributo enel head sobre los
+        <br>
+        párrafos, afecta a todos los párrafos de nuetra página html
+
+
+    </p>
+
+
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="imagenes/figuras.png">
+        <source media="(min-width: 465px)" srcset="imagenes/workplace.jpg">
+        <img src="logotipo.png">
+    </picture>
+
+
+
+
+</body>
+</html>
